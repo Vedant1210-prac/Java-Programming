@@ -25,6 +25,10 @@ public class revthenumber {
 		}
 		System.out.println("Reverse number is " +numrev);
 		
+		int c = 1%10;
+		System.out.println(c);
 	}
+	
+	
 
 }

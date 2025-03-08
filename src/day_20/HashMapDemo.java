@@ -42,13 +42,16 @@ public class HashMapDemo {
 		//Accessing the pair from Map
 		System.out.println(hm.get(102));
 		
+		
+		
 		//only keys in set format
 		
-		System.out.println(hm.keySet());
+		System.out.println("key"+hm.keySet());
 		System.out.println(hm.values());
 		
-		System.out.println(hm.entrySet());
+		System.out.println("Hi"+hm.entrySet());
 		
+		System.out.println("getofDefault" +hm.getOrDefault(101, null));
 		
 		
 		//Reading the data from HashMap
