@@ -24,6 +24,7 @@ if(result==num) {
 }else {
 	System.out.println(num +" Not ArmStrong Number");
 }
+
 	}
 
 }
